@@ -9,4 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: "/menu_app/", // IMPORTANTE: nombre exacto del repositorio
+  build: {
+    outDir: "dist",
+  },
 })
