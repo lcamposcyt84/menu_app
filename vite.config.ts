@@ -9,8 +9,9 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/menu_app/", // IMPORTANTE: nombre exacto del repositorio
+  base: "/menu_app/",
   build: {
     outDir: "dist",
+    assetsDir: "assets", 
   },
 })
